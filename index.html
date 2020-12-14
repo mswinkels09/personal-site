@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IT Worker | responsive portfolio template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/other_images/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+  <!-- Reference item-->
+  <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Mikayla Swinkels</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Resume</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Projects</a></li>
+              <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Technologies</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <!-- Intro Image-->
+    <section id="intro" style="background: url(img/my_images/cover_photo.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Mikayla Swinkels</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">FULL STACK SOFTWARE DEVELOPER</p>
+      </div>
+    </section>
+  <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6 mt-4">
+            <h4>From Zookeeper to Software Developer</h4>
+            <p>Since I was a little girl I have always wanted to work with animals. 
+              I followed that passion by getting my Zoology degree and going into a specialized Zookeeping school(one of two in the country). 
+              This two year program not only prepared me to become an animal proffessional but it also prepared me with the ability to learn quickly and have pride in what I can accomplish, whether that be in a zookeeper setting or in a classroom.</p>
+            <p>Since that program I have worked with animals I never would have dreamed I could actually interact with as a little girl, including Grizzly Bears, Wolves, Lions, Porcupines, Kangaroos, and Seals.
+              After getting injured on the job and having to undergo surgery, I realized I will not be able to do my dream job forever.
+              While animals will always be a passion in my life, I learned a way to satisfy my love of learning and problem solving outside of having to wear khaki everyday.
+              A friend of mine introduced me to a program she was going to and absolutely loved (Nashville Software School) I decided to take a leap of faith and signed up for their fundamental course to see if I would enjoy a very different style job.
+              I absolutely fell in love and was itching to join the more intense program as soon as possible. 
+            </p>
+            <p>I will be graduating in January 2021 as a Full Stack Software Developer after learning Javascript, React, Python and Django, among many other skills and tools.  
+              Nashville Software School and the software community has opened the door for me to learn and grow. 
+              Everyday I learn something new and overcome a new challenge that, only a short while ago, I never thought I was capable of accomplishing.
+              I am able to take my problem solving skills and my knack for patience, that I have been using in the animal world, and apply it to my new career as a Software Developer.
+              I am excited and ready to branch out into the "real" world and to continue to learn and grow everyday. 
+            </p>
+          </div>
+          <!-- <div data-animate="fadeInUp" class="col-lg-6">
+            <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML coding</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SEO</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SEM</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div> -->
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto center_img"><img src="img/my_images/me_professional.jpg" alt="This is me - IT worker" width="500" height="500" class="image rounded-circle"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+  <!-- Service-->
+    <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">RESUME</h2>
+        </header>
+        <div class="services text-center">
+          <div class="text-center row">
+            <div data-animate="fadeInUp" class="col-lg-4">
+              <h3 class="heading mb-3 text-400">Junior Full Stack Developer</h3>
+              <h4 class="heading mb-3 text-400"><em>Nashville Software School</em></h4>
+              <h6 class="heading mb-3 text-400"><em>July 2020 - January 2021</em></h6>
+              <p class="text-left description">Intensive full-time software development boot camp focusing on full stack development fundamentals and problem-solving.</p>
+            </div>
+            <div data-animate="fadeInUp" class="col-lg-4">
+              <h3 class="heading mb-3 text-400">Zookeeper - Contact Area</h3>
+              <h4 class="heading mb-3 text-400"><em>Nashville Zoo</em></h4>
+              <h6 class="heading mb-3 text-400"><em>March 2018 - July 2020</em></h6>
+              <p class="text-left description">Full time animal keeper responsible for the well-being of a variety of domestic hoofstock as well as Red Kangaroos. Daily guest engagement including keeper chats and training demonstration. Other responsibilities include hiring and training interns and reorganizing animal enrichment sheets.</p>
+            </div>
+            <div data-animate="fadeInUp" class="col-lg-4">
+              <h3 class="heading mb-3 text-400">Animal Keeper</h3>
+              <h4 class="heading mb-3 text-400"><em>Grizzly & Wolf Discovery Center</em></h4>
+              <h6 class="heading mb-3 text-400"><em>September 2016 - December 2017</em></h6>
+              <p class="text-left description">Responsible for taking care of a variety of large carnivores including Brown Bears and Wolves. Incharge of creating new enrichment for the animals each day and administering medication when needed.</p>
+            </div>
+            <div data-animate="fadeInUp" class="col-lg-4">
+              <h3 class="heading mb-3 text-400">Camp Counselor</h3>
+              <h4 class="heading mb-3 text-400"><em>Camp Bow Wow</em></h4>
+              <h6 class="heading mb-3 text-400"><em>May 2013 - July 2014</em></h6>
+              <p class="text-left description">Created a safe environment for all dogs in a group setting. Made sure all medication and diet were given correctly according to the instuctions left by the owner.</p>
+            </div>
+            <div data-animate="fadeInUp" class="col-lg-4">
+              <h3 class="heading mb-3 text-400">Exotic Animal Handling and Management Certificate</h3>
+              <h4 class="heading mb-3 text-400"><em>Moorpark College</em></h4>
+              <h6 class="heading mb-3 text-400"><em>August 2014 - May 2016</em></h6>
+              <p class="text-left description">Extensive 2 year program that taught me how to become an animal care professional. Daily zookeeping tasks including diet prep, enrichment, and training. Educated on multiple animal facets including animal behavior, veterinary practices, and animal diversity in a classroom setting.</p>
+            </div>
+            <div data-animate="fadeInUp" class="col-lg-4">
+              <h3 class="heading mb-3 text-400">Bachelors of Science - Zoology</h3>
+              <h4 class="heading mb-3 text-400"><em>Humboldt State University</em></h4>
+              <h6 class="heading mb-3 text-400"><em>August 2011 - December 2013</em></h6>
+            </div>
+          </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <!-- Need to attach resume -->
+          <p><a href="img/my_images/MikaylaSwinkelsResume.pdf" class="btn btn-outline-light link-scroll">View Resume</a></p> 
+        </div>
+      </div>
+    </section>
+  <!-- Testimonials-->
+    <!-- <section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">My customers said<br><span>about me</span></h2>
+          <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What is happened to me? &quot; he thought. It was not a dream.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-3.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+  <!-- Statistics-->
+    <section id="statistics" data-dir="up" style="background: url(&quot;img/other_images/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center center_countdowns"> 
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-paw"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">324</span><br>Dog Walks</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-coffee"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">127</span><br>Trips to Starbucks</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-cloud"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">53</span><br>Dreams About Coding</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section>
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="text-center">
+            <h2 data-animate="fadeInUp" class="title">Projects</h2>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="frontend">Front End</a></li>
+            <li><a href="#" data-filter="fullstack">Full Stack</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row center_countdowns">
+              <div data-category="frontend" class="reference-item">
+                <div class="reference"><a href="#"><img src="img/my_images/mountain_dew_pic.jpg" alt="What Not To Dew Project" width="auto" height="auto" class="img-fluid-mtn-dew">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">What Not To Dew</h3>
+                        <p>Client-Side Front End Capstone</p>
+                      </div>
+                    </div></a>
+                  <div id="img-fluid-mtn-dew-slides" data-images="img/mt_dew_project/Home.png, img/mt_dew_project/So_Far.png, img/mt_dew_project/Item_Details.png, img/mt_dew_project/New_Item.png, img/mt_dew_project/Consumption.png, img/mt_dew_project/Overall_Progress.png" width="200" height="600" class="sr-only reference-description project_examples">
+                    <div>
+                      <p>What Not To Dew is a mobile-friendly single-page application that allows users to track unhealthy food items. Using full CRUD capability users will be able to track their sugar and calorie intake, while keeping track with how much they are spending.</p>
+                      <p>Technologies that were used include: React.js, HTML5, CSS3, Git, GitHub, and Visual Studio Code.</p>
+                      <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-category="fullstack" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/other_images/portfolio-2.jpg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h5 class="h5 reference-title">RARE: The Publishing Platform for the Discerning Writer</h5>
+                        <p>Full-Stack Learning Project</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/rare_project/Rare_home.png, img/rare_project/Rare_post.png, img/rare_project/Rare_post_details.png" class="sr-only reference-description">
+                    <p>Rare was conducted in two 5 day sprints. With a given wireframe and ERD, our team produced a full CRUD capable application that allowed users to create posts including uploading pictures, and  add categories, tags, and reactions. Rare has full authentication capabilities and allows admin users to control what “authors”(all other users) publish on their site.</p>
+                    <p>Technologies that were used include: React.js, HTML5, CSS3, Python, Django, Git, GitHub, and Visual Studio Code.</p>
+                    <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Technologies-->
+    <section id="customers" class="customers-section bg-gray">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer logo"><img src="img/my_images/vs_code_logo.png" title="Visual Studio Code" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer logo"><img src="img/my_images/Git-Icon.png" title="Git" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer logo"><img src="img/my_images/js_logo.png" title="Javascript" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer logo"><img src="img/my_images/React-icon.png" title="React" data-placement="bottom" data-toggle="tooltip" alt="" class="d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer logo"><img src="img/my_images/python_logo.png" title="Python" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer logo"><img src="img/my_images/django-logo-negative.png" title="Django" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact bg-gradient">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact Info</h2>
+        </header>
+        <div class="row center_countdowns">
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto center_img_contact img_size"><img src="img/my_images/fun_picture.jpg" alt="This is me - IT worker" width="400" height="300" class="image img-fluid picture_shadow"></div>
+          <div data-animate="fadeInUp" class="col-lg-6 mt-5">
+            <div class="contact_info_styling">
+              <h4 class="my-3">Mikayla Swinkels</h4>
+              <h5 class="my-3">Greater Nashville Area, TN</h5>
+              <div class="contact-info-wrapper"></div>
+              <div class="col-md-6">
+                <p><a class="underline" href="tel:+19259988006">
+                    (+1) 925-998-8006
+                  </a></p>
+                <p><a class="underline" href="mailto:mswinkels09@gmail.com">
+                    </i>mswinkels09@gmail.com
+                  </a></p>
+              </div>
+              <div class="col-sm-6 center_countdowns">
+                <p class="icon_styling"><a class="underline" href="http://www.linkedin.com/in/mikayla-swinkels/">
+                    <i class="fa fa-linkedin" style="font-size: 2em;"></i>
+                  </a></p>
+                <p class="icon_styling"><a class="underline" href="http://www.github.com/mswinkels09">
+                    <i class="fa fa-github-square" style="font-size: 2em;"></i>
+                  </a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+      <div class="container">
+        <div class="">
+          <!-- /.6-->
+          <div class="footer">
+            <p>© 2018 Mikayla Swinkels. All rights reserved.</p>
+            <p class="">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+          </div>
+          <!-- <div class="">
+            <p class="template-bootstrapious">Template by <a href='https://bootstrapious.com/p/bootstrap-carousel'>Bootstrapious</a> & <a href="https://fity.cz/ostrava">Fity</a></p>
+            <!-- Please do not remove the backlink to us unless you support further theme's development at https://bootstrapious.com/donate. It is part of the license conditions. Thank you for understanding :)-->
+          </div> -->
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
